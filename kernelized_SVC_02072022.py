@@ -1,5 +1,6 @@
 """
-Códigos modificados de https://github.com/aladdinpersson/Machine-Learning-Collection
+Códigos modificados de
+ https://github.com/aladdinpersson/Machine-Learning-Collection
 por Pedro Blöss Braga
 """
 import os

@@ -1,3 +1,7 @@
+"""
+Códigos modificados de https://github.com/aladdinpersson/Machine-Learning-Collection
+por Pedro Blöss Braga
+"""
 import os
 import numpy as np
 import matplotlib.pyplot as plt

@@ -2,6 +2,7 @@
 Código modificado a partir das referências 
 - https://towardsdatascience.com/implementing-svm-from-scratch-784e4ad0bc6a
 - https://fordcombs.medium.com/svm-from-scratch-step-by-step-in-python-f1e2d5b9c5be
+- https://github.com/marvinlanhenke/DataScience/blob/main/MachineLearningFromScratch/SVM/train.py
 por Pedro Blöss Braga
 """
 import os
@@ -12,7 +13,10 @@ import matplotlib.pyplot as plt
 plt.rcParams['axes.facecolor']='white'
 
 class SVC_linear:
-    def __init__(self, learning_rate=1e-3, lambda_param=1e-2, n_iters=1000):
+    def __init__(self, 
+                 learning_rate=1e-3, 
+                 lambda_param=1e-2, 
+                 n_iters=1000):
         self.eta = learning_rate
         self.lambda_param = lambda_param
         self.n_iters = n_iters
